@@ -5,8 +5,8 @@ const axios = require('axios');
 const app = express();
 app.use(express.json());
 app.use(cors());
-
-const GEMINI_API_KEY = "AIzaSyDiEz2-b9T1gB_Q2TCkZ_pL9drQY2uucgY";
+"
+const GEMINI_API_KEY = "12414;
 const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${GEMINI_API_KEY}`;
 
 app.post('/chat', async (req, res) => {
